@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#86c4ba;
+    ;
+    background-color: #1B335F;
+}
+
+.bio-container {
+    margin-top: 200px;
+}
+
+.name-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #86c4ba;
+    margin-bottom: 0;
+}
+
+.first-name-title {
+    color: wheat;
+}
+
+.bio {
+    font-style: italic;
+    width: 500px;
+}
+
+.intro-button {
+background-color: #0d2552;
+color: #86c4ba;
+border: none;
+cursor: pointer;
+border-radius: 10px;
+margin-left: 150px;
+padding: 10px;
+transition: padding 0.6s, margin 0.6s;
+font-size: 24px;
+}
+
+.intro-button:hover {
+    opacity: 0.5;
+    padding: 20px;
+    /* padding-bottom: 10px; */
+}
+
+.intro-button:active {
+    opacity: 0.3;
+    padding: 15px 50px 15px 50px;
+}
