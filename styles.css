@@ -27,7 +27,8 @@ body {
 
 .intro-button {
 background-color: #0d2552;
-color: #86c4ba;
+/* color: #86c4ba; */
+color: white;
 border: none;
 cursor: pointer;
 border-radius: 10px;
